@@ -1,18 +1,3 @@
-// Be able to identify the following data types and notations:
-// ☑ Strings
-// ☑ Numbers
-// ☑ Booleans
-// ☑ Arrays (Why are they useful? What does “0-indexed” mean?)
-// ☑ Objects
-// ☑ Dot Notation (What is this used for and how is it implemented)
-// ☑ Bracket Notation (What is this used for and how is it implemented)
-// Use each of the following in your app.js file:
-// 	☑ Create an object and navigate that object using dot notation.
-// 	☑ Create an array and navigate that array using bracket notation.
-// 	☑ A conditional statement (if, else if, else)
-// 	☑ A for loop OR a while loop
-// ☑ An addEventListener method to call a function
-
 let count = 0;
 const oneRepBtn = document.getElementById("button")
 const tenRepBtn = document.getElementById("button10")
