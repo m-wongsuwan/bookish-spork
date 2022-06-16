@@ -6,6 +6,8 @@ const thousandRepBtn = document.getElementById("button1000")
 const checkBtn = document.getElementById("buttonCheck")
 const moreInfoMouseOvr = document.getElementsByClassName("moreInfo")
 
+
+
 oneRepBtn.addEventListener("click", function () {
     count++
     document.getElementById("clickCount").innerText = `${count} reps`;
@@ -77,4 +79,32 @@ marathonBtn.addEventListener("click", function () {
     for (let i = 0; i <27; i++) {
         console.log(i)
     }
+})
+
+const gymName = document.getElementById("gymName")
+const gymAddress = document.getElementById("gymAddress")
+const gymCost = document.getElementById("gymCost")
+const gymEquipment = document.getElementById("gymEquipment")
+
+let onlineGym = {
+    name: 'The Online Gym',
+    address: 'Your computer chair',
+    membershipCost: 'Free',
+    equipment: ['Mouse', ' Keyboard']
+}
+
+gymName.addEventListener("click", function () {
+    document.getElementById("gymName").innerText = onlineGym.name
+})
+
+gymAddress.addEventListener("click", function (){
+    document.getElementById("gymAddress").innerText = onlineGym.address
+})
+
+gymCost.addEventListener("click", function () {
+    document.getElementById("gymCost").innerText = onlineGym.membershipCost
+})
+
+gymEquipment.addEventListener("click", function () {
+    document.getElementById("gymEquipment").innerText = onlineGym.equipment
 })
